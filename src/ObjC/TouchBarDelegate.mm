@@ -1,9 +1,6 @@
 #include "TouchBarDelegate.h"
 #include "TouchBarCustomView.h"
 
-static NSString *touchBarCustomizationId = @"com.geometry-jump.touchbar-customization";
-static NSString *touchBarItemId = @"com.geometry-jump.touchbar";
-
 @implementation TouchBarDelegate
     - (NSTouchBar *)makeTouchBar
     {
