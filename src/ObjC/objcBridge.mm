@@ -4,6 +4,7 @@
 #import <AppKit/NSTouchBar.h>
 
 #include "TouchBarCustomView.h"
+#include "TouchBarDelegate.h"
 
 TouchBarDelegate* g_TouchBarDelegate = NULL;
 
